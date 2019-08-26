@@ -15,7 +15,7 @@ class Kernel extends BaseKernel
 
     private const CONFIG_EXTS = '.{php,xml,yaml,yml}';
 
-    public function registerBundles(): iterable
+    public function registerBundles(): iterable aaaaaaaaaaaaaaaaaaaaaaaaaaaaaadld;; adsfasf;
     {
         $contents = require $this->getProjectDir().'/config/bundles.php';
         foreach ($contents as $class => $envs) {
